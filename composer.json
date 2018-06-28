@@ -1,0 +1,38 @@
+{
+    "name": "gsposato/yii2-jui",
+    "description": "An Older Jquery UI extension for the Yii framework",
+    "keywords": ["yii2", "Jquery UI"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?labels=ext%3Ajui",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name": "Gregory Sposato",
+            "email": "gregsposato@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yidas/yii2-bower-asset": "~2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\jui\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
