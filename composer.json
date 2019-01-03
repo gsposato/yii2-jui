@@ -18,8 +18,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "yidas/yii2-bower-asset": "~2.0.6"
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
